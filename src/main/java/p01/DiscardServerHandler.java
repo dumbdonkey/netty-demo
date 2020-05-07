@@ -15,6 +15,10 @@ public class DiscardServerHandler extends SimpleChannelHandler {
 
     @Override
     public void messageReceived(ChannelHandlerContext ctx, MessageEvent e) {
+
+        System.out.println(e.getMessage());
+
+
     }
 
     @Override
